@@ -1,0 +1,71 @@
+#basket {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#basket img {
+    width: 26%;
+    margin-right: 50px;
+}
+
+
+#basket h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#basket p {
+    font-size: 15px;
+}
+
+
+
+#sleep {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+#sleep:nth-last-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+#sleep img {
+    width: 26%;
+    margin-right: 50px;
+}
+
+
+#sleep h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#sleep p {
+    font-size: 15px;
+}
+
+
+
+#water {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#water img {
+    width: 26%;
+    margin-right: 50px;
+}
+
+
+#water h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#water p {
+    font-size: 15px;
+}

@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.btn {
+  background: rgb(124, 40, 99);
+  padding: 8px 15px;
+  color: white !important;
+}
+
+.btn:hover {
+  background: rgb(175, 83, 147);
+}
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+}
+
+header {
+  background-image: linear-gradient(to top right,
+      rgba(124, 40, 99, 0.6),
+      rgba(0, 0, 0, 0.4)),
+    url(../img/fitness.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: white;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav img {
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header div {
+  text-align: center;
+  padding: 100px 0 200px;
+}
+
+header h1 {
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 80px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+#advantages li {
+  text-align: center;
+  width: calc(100% / 3);
+  padding: 60px 20px 55px;
+}
+
+#advantages li:nth-of-type(odd) {
+  background-color: rgba(243, 243, 243);
+}
+
+#advantages li img {
+  width: 48px;
+}
+
+#goal div {
+  text-align: center;
+  margin: 80px auto;
+}
+
+#goal ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+#goal ul li {
+  text-align: center;
+  width: 25%;
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  padding: 40px 15px 20px;
+}
+
+#goal ul li:last-of-type {
+  border-right: none;
+}
+
+#goal ul li img {
+  width: 48px;
+}
+
+#goal ul li h3 {
+  font-weight: 400;
+}
+
+#programs {
+  display: flex;
+  margin-top: -100px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+#programs a:first-of-type {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/fitnessman.jpg);
+}
+
+#programs a:last-of-type {
+  background-image: linear-gradient(rgba(124, 40, 99, 0.6),
+      rgba(124, 40, 99, 0.6)),
+    url(../img/fitnesswoman.jpg);
+}
+
+#programs a {
+  width: 50%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 80px 15px;
+}
+
+#programs a h2 {
+  text-transform: uppercase;
+}
+
+#story {
+  background-image: linear-gradient(to right,
+      rgba(124, 40, 99, 0.6),
+      rgba(124, 40, 99, 0.3) 55%,
+      black 45%),
+    url(../img/crossfit.jpg);
+  background-size: cover;
+  background-position: center 30%;
+  padding: 60px 0 80px;
+  color: white;
+}
+
+#story div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#story article {
+  width: 40%;
+}
+
+#story article h2 {
+  margin-left: -110px;
+}
+
+#story article .btn {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+iframe {
+  width: 100%;
+}
+
+#contact {
+  width: 40px;
+  height: 380px;
+  background-color: rgb(23, 32, 160);
+
+}
+
+
+
+h4 {
+  display: flex;
+}
+
+footer {
+  background: black;
+  border-top: 15px solid rgb(124, 40, 99);
+  color: white;
+  margin-top: -6px;
+  padding: 30px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer article {
+  text-align: right;
+  width: 20%;
+}
+
+footer article img {
+  height: 50px;
+}
+
+footer article i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+footer form {
+  background: white;
+  color: black;
+  width: 50%;
+  padding: 50px 70px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -170px;
+  z-index: 1;
+  position: relative;
+}
+
+footer form h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+footer form input:not([type="submit"]) {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin: 30px 0;
+}
+
+footer form input:not([type="submit"])::placeholder {
+  color: black;
+}
+
+footer form input[type="submit"] {
+  border: none;
+  margin: 30px;
+  padding: 18px 15px;
+}
+
+footer aside {
+  width: 20%;
+}
+
+footer aside li {
+  display: flex;
+}
+
+footer aside i {
+  color: rgb(124, 40, 99);
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+footer aside h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 15px;
+}
